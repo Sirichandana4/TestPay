@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <types>
+    <!--<types>
         <members>ChangePasswordController</members>
         <members>ChangePasswordControllerTest</members>
         <members>CommunitiesLandingController</members>
@@ -32,14 +32,14 @@
         <members>TrialCustomerPortalHomePageController</members>
         <members>superSort</members>
         <name>ApexClass</name>
-    </types>
+    </types> 
     <types>
         <members>SiteFooter</members>
         <members>SiteHeader</members>
         <members>SiteLogin</members>
         <members>SitePoweredBy</members>
         <name>ApexComponent</name>
-    </types>
+    </types> -->
    
     <types>
         <members>AnswersHome</members>
@@ -80,11 +80,7 @@
         <members>scc_tour_style</members>
         <name>ApexPage</name>
     </types>
-    <types>
-        <members>AppSwitcher</members>
-        <members>Salesforce1</members>
-        <name>AppMenu</name>
-    </types>
+    
     <types>
         <members>Case</members>
         <members>Lead</members>
@@ -100,15 +96,6 @@
         <name>AuraDefinitionBundle</name>
     </types>
   
-    <types>
-        <members>Internal Community</members>
-        <members>Q%26A</members>
-        <name>Community</name>
-    </types>
-    <types>
-        <members>Test_Demo</members>
-        <name>ConnectedApp</name>
-    </types>
     <types>
         <members>Chatter_Answers_Moderator</members>
         <members>Service_Cloud_Console</members>
@@ -417,22 +404,7 @@
         <members>webhook</members>
         <name>CustomSite</name>
     </types>
-    
-    <types>
-        <members>Best_Practice_Service_Dashboards</members>
-        <members>Best_Practice_Service_Dashboards/Agent_Supervisor_Overview</members>
-        <members>Best_Practice_Service_Dashboards/Service_Exec_Overview</members>
-        <members>Best_Practice_Service_Dashboards/Service_KPIs</members>
-        <members>CompanyDashboards</members>
-        <members>CompanyDashboards/AdoptionDashboard</members>
-        <members>CompanyDashboards/CompanyPerformanceDashboard</members>
-        <members>Sales_Marketing_Dashboards</members>
-        <members>Sales_Marketing_Dashboards/Marketing_Executive_Dashboard</members>
-        <members>Sales_Marketing_Dashboards/Sales_Executive_Dashboard</members>
-        <members>Sales_Marketing_Dashboards/Sales_Manager_Dashboard</members>
-        <members>Sales_Marketing_Dashboards/Salesperson_Dashboard</members>
-        <name>Dashboard</name>
-    </types>
+   
     
     <types>
         <members>Account.Standard_Account_Duplicate_Rule</members>
@@ -442,10 +414,7 @@
         <members>Lead.Standard_Rule_for_Leads_with_Duplicate_Contacts</members>
         <name>DuplicateRule</name>
     </types>
-    <types>
-        <members>EmailToCase</members>
-        <name>EmailServicesFunction</name>
-    </types>
+   
     <types>
         <members>unfiled$public</members>
         <members>unfiled$public/CommunityChangePasswordEmailTemplate</members>
@@ -578,131 +547,6 @@
         <members>SVP_Customer_Experience</members>
         <name>Role</name>
     </types>
-    <types>
-        <members>Account</members>
-        <members>AccountIntelligence</members>
-        <members>Actions</members>
-        <members>Activities</members>
-        <members>Address</members>
-        <members>Ai4m</members>
-        <members>Analytics</members>
-        <members>Apex</members>
-        <members>AppAnalytics</members>
-        <members>AppExperience</members>
-        <members>Blockchain</members>
-        <members>BusinessHours</members>
-        <members>Campaign</members>
-        <members>Case</members>
-        <members>Chatter</members>
-        <members>ChatterEmailsMD</members>
-        <members>CodeBuilder</members>
-        <members>Commerce</members>
-        <members>Communities</members>
-        <members>Company</members>
-        <members>ConnectedApp</members>
-        <members>Content</members>
-        <members>Contract</members>
-        <members>ConversationalIntelligence</members>
-        <members>Currency</members>
-        <members>CustomAddressField</members>
-        <members>CustomerDataPlatform</members>
-        <members>CustomizablePropensityScoring</members>
-        <members>DataImportManagement</members>
-        <members>Deployment</members>
-        <members>DevHub</members>
-        <members>Discovery</members>
-        <members>DocumentChecklist</members>
-        <members>DynamicForms</members>
-        <members>EAC</members>
-        <members>EinsteinDocumentCapture</members>
-        <members>EmailAdministration</members>
-        <members>EmailIntegration</members>
-        <members>EmailTemplate</members>
-        <members>EmployeeFieldAccess</members>
-        <members>EmployeeUser</members>
-        <members>EncryptionKey</members>
-        <members>EnhancedNotes</members>
-        <members>Entitlement</members>
-        <members>Essentials</members>
-        <members>Event</members>
-        <members>ExperienceBundle</members>
-        <members>ExternalClientApp</members>
-        <members>FileUploadAndDownloadSecurity</members>
-        <members>FilesConnect</members>
-        <members>Flow</members>
-        <members>Forecasting</members>
-        <members>Formula</members>
-        <members>GoogleApps</members>
-        <members>Ideas</members>
-        <members>IdentityProvider</members>
-        <members>IncidentMgmt</members>
-        <members>Industries</members>
-        <members>IndustriesEinsteinFeature</members>
-        <members>InvocableAction</members>
-        <members>Knowledge</members>
-        <members>KnowledgeGeneration</members>
-        <members>Language</members>
-        <members>LeadConfig</members>
-        <members>LightningExperience</members>
-        <members>Macro</members>
-        <members>MailMerge</members>
-        <members>MapsAndLocation</members>
-        <members>Meetings</members>
-        <members>Mobile</members>
-        <members>MyDomain</members>
-        <members>Name</members>
-        <members>Notifications</members>
-        <members>OauthOidc</members>
-        <members>ObjectLinking</members>
-        <members>OmniChannel</members>
-        <members>OmniChannelPricing</members>
-        <members>OnlineSales</members>
-        <members>Opportunity</members>
-        <members>Order</members>
-        <members>Org</members>
-        <members>Pardot</members>
-        <members>PardotEinstein</members>
-        <members>PartyDataModel</members>
-        <members>PathAssistant</members>
-        <members>PaymentsManagementEnabled</members>
-        <members>Picklist</members>
-        <members>PlatformEncryption</members>
-        <members>PlatformEvent</members>
-        <members>Portals</members>
-        <members>PredictionBuilder</members>
-        <members>Privacy</members>
-        <members>Product</members>
-        <members>QuickText</members>
-        <members>Quote</members>
-        <members>RealTimeEvent</members>
-        <members>RecommendationBuilder</members>
-        <members>RecordPage</members>
-        <members>RetailExecution</members>
-        <members>Sandbox</members>
-        <members>SceGlobalModelOptOut</members>
-        <members>Schema</members>
-        <members>Search</members>
-        <members>Security</members>
-        <members>ServiceCloudVoice</members>
-        <members>ServiceSetupAssistant</members>
-        <members>Sharing</members>
-        <members>Site</members>
-        <members>SocialCustomerService</members>
-        <members>SocialProfile</members>
-        <members>SourceTracking</members>
-        <members>Survey</members>
-        <members>SystemNotification</members>
-        <members>Territory2</members>
-        <members>Trailhead</members>
-        <members>TrialOrg</members>
-        <members>UserEngagement</members>
-        <members>UserInterface</members>
-        <members>UserManagement</members>
-        <members>Voice</members>
-        <members>WebToX</members>
-        <members>WorkDotCom</members>
-        <name>Settings</name>
-    </types>
     
     <types>
         <members>SNA_Virtual_Terminal1_sf_default_cdn_wb2LW</members>
@@ -713,10 +557,7 @@
         <name>StaticResource</name>
     </types>
     
-    <types>
-        <members>en_US</members>
-        <name>Translations</name>
-    </types>
+    
     <types>
         <members>Account_Record_Page</members>
         <members>Contact_Record_Page</members>
@@ -732,12 +573,12 @@
         <members>Subscription_Schedule_Record_Page</members>
         <name>UiViewDefinition</name>
     </types>
-    <types>
+    <!--<types>
         <members>Virtual Terminal.Customer_Members</members>
         <members>Virtual Terminal.Members_without_contribution</members>
         <members>Virtual Terminal.Partner_and_Customer_members</members>
         <name>UserCriteria</name>
-    </types>
+    </types> -->
         
     <version>59.0</version>
 </Package>
